@@ -5,16 +5,9 @@ set -e
 apt-get update
 apt-get install -y libcurl4-openssl-dev libxml2-dev
 
-
-
-
-##### This adds files to the datasets/ folder on the live project #####
-# A list of files in datasets/ separated by space, needs to be manually updated
-FILES=""
-# The URL where the assets of the project lives
-ASSETURL=
-# Where the datasets will be compied on the Project image.
 DATADIR=/home/repl/datasets
+ASSETURL=https://s3.amazonaws.com/assets.datacamp.com/production/project_49/datasets
+FILES="monthly_deaths.csv yearly_deaths_by_clinic.csv ignaz_semmelweis_1860.jpeg project_image.png"
 
 mkdir -p $DATADIR
 for FILE in $FILES
