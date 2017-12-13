@@ -6,7 +6,7 @@ long_description: |
 
   In this R project we will reanalyze the medical data Semmelweis collected. This project assumes you can manipulate data frames using `dplyr` and make simple plots using `ggplot2`. You can learn these skills in the course [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse).
 language       : r
-from           : 'r-notebooks-prod:35'
+from           : 'r-notebooks-prod:36'
 runtime_config : heavy
 state          : live
 technology: 1
